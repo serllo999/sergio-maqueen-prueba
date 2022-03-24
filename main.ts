@@ -6,8 +6,8 @@ input.onButtonPressed(Button.A, function () {
     maqueen.writeLED(maqueen.LED.LEDRight, maqueen.LEDswitch.turnOff)
 })
 input.onButtonPressed(Button.AB, function () {
-    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
-    basic.pause(500)
+    maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 200)
+    basic.pause(2000)
     maqueen.motorStop(maqueen.Motors.All)
 })
 input.onButtonPressed(Button.B, function () {
